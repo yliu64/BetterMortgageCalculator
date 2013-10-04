@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server"> 
     <div>      
-    Mike's Mortgage Calculator 
+        Yang's Mortgage Calculator 
 
         <br /><br />       
         Loan Amount:<asp:TextBox ID="tbLoanAmt" runat="server" ></asp:TextBox>                    
