@@ -13,11 +13,14 @@
 
         <br /><br />       
         Loan Amount:<asp:TextBox ID="tbLoanAmt" runat="server" ></asp:TextBox>                    
+        <asp:RequiredFieldValidator ID="rfvLoanAmount" runat="server" ControlToValidate="tbLoanAmt" ErrorMessage="** Please enter a loan amount"></asp:RequiredFieldValidator>
         <br /><br />                
         Annual Interest %: <asp:TextBox ID="tbAnnualInterest" runat="server" ></asp:TextBox>          
+        <asp:RequiredFieldValidator ID="rfvAnnualInterest" runat="server" ControlToValidate="tbAnnualInterest" ErrorMessage="** Please enter an annual interest"></asp:RequiredFieldValidator>
         <br /><br /> 
  
         Loan Term (Yrs): <asp:TextBox ID="tbLoanTerm" runat="server" ></asp:TextBox>          
+        <asp:RequiredFieldValidator ID="rfvLoanTerm" runat="server" ControlToValidate="tbLoanTerm" ErrorMessage="** Please enter a loan term"></asp:RequiredFieldValidator>
         <br /><br /> 
  
         <asp:Button ID="btnCalcPmt" runat="server" Text="Calculate" />          
