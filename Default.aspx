@@ -32,6 +32,8 @@
         <p>Welcome to my mortgage calculator. Please complete the fields above to have your monthly payment and loan calculated for you.</p> 
 
         <% Else%>
+
+        <br />
   
          Monthly Payment: &nbsp; <asp:Label ID="lblMonthlyPmt" runat="server"></asp:Label> 
          
